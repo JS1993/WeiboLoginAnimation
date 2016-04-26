@@ -14,6 +14,10 @@
 
 @implementation ViewController
 
+- (IBAction)addAction:(UIButton *)sender {
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

@@ -16,6 +16,10 @@
 		CF55F5D11CCF212100AC1EEA /* WeiboLoginAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55F5D01CCF212100AC1EEA /* WeiboLoginAnimationTests.m */; };
 		CF55F5DC1CCF212100AC1EEA /* WeiboLoginAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55F5DB1CCF212100AC1EEA /* WeiboLoginAnimationUITests.m */; };
 		CF55F5EB1CCF21B300AC1EEA /* WeibpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55F5EA1CCF21B300AC1EEA /* WeibpButton.m */; };
+		CF55F5EE1CCF24BD00AC1EEA /* WelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55F5ED1CCF24BD00AC1EEA /* WelcomeView.m */; };
+		CF55F5F01CCF251C00AC1EEA /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF55F5EF1CCF251C00AC1EEA /* WelcomeView.xib */; };
+		CF55F5F41CCF2C7000AC1EEA /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55F5F21CCF2C7000AC1EEA /* ComposeViewController.m */; };
+		CF55F5F51CCF2C7000AC1EEA /* ComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF55F5F31CCF2C7000AC1EEA /* ComposeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,12 @@
 		CF55F5DD1CCF212100AC1EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF55F5E91CCF21B300AC1EEA /* WeibpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeibpButton.h; sourceTree = "<group>"; };
 		CF55F5EA1CCF21B300AC1EEA /* WeibpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeibpButton.m; sourceTree = "<group>"; };
+		CF55F5EC1CCF24BD00AC1EEA /* WelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeView.h; sourceTree = "<group>"; };
+		CF55F5ED1CCF24BD00AC1EEA /* WelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeView.m; sourceTree = "<group>"; };
+		CF55F5EF1CCF251C00AC1EEA /* WelcomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeView.xib; sourceTree = "<group>"; };
+		CF55F5F11CCF2C7000AC1EEA /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		CF55F5F21CCF2C7000AC1EEA /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		CF55F5F31CCF2C7000AC1EEA /* ComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +118,19 @@
 				CF55F5BA1CCF212100AC1EEA /* AppDelegate.m */,
 				CF55F5BC1CCF212100AC1EEA /* ViewController.h */,
 				CF55F5BD1CCF212100AC1EEA /* ViewController.m */,
+				CF55F5EC1CCF24BD00AC1EEA /* WelcomeView.h */,
+				CF55F5ED1CCF24BD00AC1EEA /* WelcomeView.m */,
+				CF55F5EF1CCF251C00AC1EEA /* WelcomeView.xib */,
+				CF55F5F11CCF2C7000AC1EEA /* ComposeViewController.h */,
+				CF55F5F21CCF2C7000AC1EEA /* ComposeViewController.m */,
+				CF55F5F31CCF2C7000AC1EEA /* ComposeViewController.xib */,
+				CF55F5E91CCF21B300AC1EEA /* WeibpButton.h */,
+				CF55F5EA1CCF21B300AC1EEA /* WeibpButton.m */,
 				CF55F5BF1CCF212100AC1EEA /* Main.storyboard */,
 				CF55F5C21CCF212100AC1EEA /* Assets.xcassets */,
 				CF55F5C41CCF212100AC1EEA /* LaunchScreen.storyboard */,
 				CF55F5C71CCF212100AC1EEA /* Info.plist */,
 				CF55F5B61CCF212100AC1EEA /* Supporting Files */,
-				CF55F5E91CCF21B300AC1EEA /* WeibpButton.h */,
-				CF55F5EA1CCF21B300AC1EEA /* WeibpButton.m */,
 			);
 			path = WeiboLoginAnimation;
 			sourceTree = "<group>";
@@ -254,6 +270,8 @@
 				CF55F5C61CCF212100AC1EEA /* LaunchScreen.storyboard in Resources */,
 				CF55F5C31CCF212100AC1EEA /* Assets.xcassets in Resources */,
 				CF55F5C11CCF212100AC1EEA /* Main.storyboard in Resources */,
+				CF55F5F51CCF2C7000AC1EEA /* ComposeViewController.xib in Resources */,
+				CF55F5F01CCF251C00AC1EEA /* WelcomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF55F5EE1CCF24BD00AC1EEA /* WelcomeView.m in Sources */,
 				CF55F5BE1CCF212100AC1EEA /* ViewController.m in Sources */,
 				CF55F5BB1CCF212100AC1EEA /* AppDelegate.m in Sources */,
+				CF55F5F41CCF2C7000AC1EEA /* ComposeViewController.m in Sources */,
 				CF55F5B81CCF212100AC1EEA /* main.m in Sources */,
 				CF55F5EB1CCF21B300AC1EEA /* WeibpButton.m in Sources */,
 			);
