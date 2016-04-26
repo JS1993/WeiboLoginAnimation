@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ComposeViewController.h"
 
 @interface ViewController ()
 
@@ -15,7 +16,9 @@
 @implementation ViewController
 
 - (IBAction)addAction:(UIButton *)sender {
+    ComposeViewController* comVC=[[ComposeViewController alloc]init];
     
+    [self presentViewController:comVC animated:YES completion:nil];
 }
 
 - (void)viewDidLoad {

@@ -18,6 +18,7 @@
 
 @implementation WelcomeView
 
+#pragma mark--当加入到父控件时，设置动画
 -(void)didMoveToSuperview{
     
     //设置头像圆角
