@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF55F5B81CCF212100AC1EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55F5B71CCF212100AC1EEA /* main.m */; };
+		CF55F5BB1CCF212100AC1EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55F5BA1CCF212100AC1EEA /* AppDelegate.m */; };
+		CF55F5BE1CCF212100AC1EEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55F5BD1CCF212100AC1EEA /* ViewController.m */; };
+		CF55F5C11CCF212100AC1EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF55F5BF1CCF212100AC1EEA /* Main.storyboard */; };
+		CF55F5C31CCF212100AC1EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF55F5C21CCF212100AC1EEA /* Assets.xcassets */; };
+		CF55F5C61CCF212100AC1EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF55F5C41CCF212100AC1EEA /* LaunchScreen.storyboard */; };
+		CF55F5D11CCF212100AC1EEA /* WeiboLoginAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55F5D01CCF212100AC1EEA /* WeiboLoginAnimationTests.m */; };
+		CF55F5DC1CCF212100AC1EEA /* WeiboLoginAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55F5DB1CCF212100AC1EEA /* WeiboLoginAnimationUITests.m */; };
+		CF55F5EB1CCF21B300AC1EEA /* WeibpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55F5EA1CCF21B300AC1EEA /* WeibpButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF55F5CD1CCF212100AC1EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF55F5AB1CCF212000AC1EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF55F5B21CCF212000AC1EEA;
+			remoteInfo = WeiboLoginAnimation;
+		};
+		CF55F5D81CCF212100AC1EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF55F5AB1CCF212000AC1EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF55F5B21CCF212000AC1EEA;
+			remoteInfo = WeiboLoginAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF55F5B31CCF212000AC1EEA /* WeiboLoginAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboLoginAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF55F5B71CCF212100AC1EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF55F5B91CCF212100AC1EEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF55F5BA1CCF212100AC1EEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF55F5BC1CCF212100AC1EEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF55F5BD1CCF212100AC1EEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF55F5C01CCF212100AC1EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF55F5C21CCF212100AC1EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF55F5C51CCF212100AC1EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF55F5C71CCF212100AC1EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF55F5CC1CCF212100AC1EEA /* WeiboLoginAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiboLoginAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF55F5D01CCF212100AC1EEA /* WeiboLoginAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboLoginAnimationTests.m; sourceTree = "<group>"; };
+		CF55F5D21CCF212100AC1EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF55F5D71CCF212100AC1EEA /* WeiboLoginAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiboLoginAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF55F5DB1CCF212100AC1EEA /* WeiboLoginAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboLoginAnimationUITests.m; sourceTree = "<group>"; };
+		CF55F5DD1CCF212100AC1EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF55F5E91CCF21B300AC1EEA /* WeibpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeibpButton.h; sourceTree = "<group>"; };
+		CF55F5EA1CCF21B300AC1EEA /* WeibpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeibpButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF55F5B01CCF212000AC1EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF55F5C91CCF212100AC1EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF55F5D41CCF212100AC1EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF55F5AA1CCF212000AC1EEA = {
+			isa = PBXGroup;
+			children = (
+				CF55F5B51CCF212100AC1EEA /* WeiboLoginAnimation */,
+				CF55F5CF1CCF212100AC1EEA /* WeiboLoginAnimationTests */,
+				CF55F5DA1CCF212100AC1EEA /* WeiboLoginAnimationUITests */,
+				CF55F5B41CCF212000AC1EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF55F5B41CCF212000AC1EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF55F5B31CCF212000AC1EEA /* WeiboLoginAnimation.app */,
+				CF55F5CC1CCF212100AC1EEA /* WeiboLoginAnimationTests.xctest */,
+				CF55F5D71CCF212100AC1EEA /* WeiboLoginAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF55F5B51CCF212100AC1EEA /* WeiboLoginAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CF55F5B91CCF212100AC1EEA /* AppDelegate.h */,
+				CF55F5BA1CCF212100AC1EEA /* AppDelegate.m */,
+				CF55F5BC1CCF212100AC1EEA /* ViewController.h */,
+				CF55F5BD1CCF212100AC1EEA /* ViewController.m */,
+				CF55F5BF1CCF212100AC1EEA /* Main.storyboard */,
+				CF55F5C21CCF212100AC1EEA /* Assets.xcassets */,
+				CF55F5C41CCF212100AC1EEA /* LaunchScreen.storyboard */,
+				CF55F5C71CCF212100AC1EEA /* Info.plist */,
+				CF55F5B61CCF212100AC1EEA /* Supporting Files */,
+				CF55F5E91CCF21B300AC1EEA /* WeibpButton.h */,
+				CF55F5EA1CCF21B300AC1EEA /* WeibpButton.m */,
+			);
+			path = WeiboLoginAnimation;
+			sourceTree = "<group>";
+		};
+		CF55F5B61CCF212100AC1EEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF55F5B71CCF212100AC1EEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF55F5CF1CCF212100AC1EEA /* WeiboLoginAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF55F5D01CCF212100AC1EEA /* WeiboLoginAnimationTests.m */,
+				CF55F5D21CCF212100AC1EEA /* Info.plist */,
+			);
+			path = WeiboLoginAnimationTests;
+			sourceTree = "<group>";
+		};
+		CF55F5DA1CCF212100AC1EEA /* WeiboLoginAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF55F5DB1CCF212100AC1EEA /* WeiboLoginAnimationUITests.m */,
+				CF55F5DD1CCF212100AC1EEA /* Info.plist */,
+			);
+			path = WeiboLoginAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF55F5B21CCF212000AC1EEA /* WeiboLoginAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF55F5E01CCF212100AC1EEA /* Build configuration list for PBXNativeTarget "WeiboLoginAnimation" */;
+			buildPhases = (
+				CF55F5AF1CCF212000AC1EEA /* Sources */,
+				CF55F5B01CCF212000AC1EEA /* Frameworks */,
+				CF55F5B11CCF212000AC1EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeiboLoginAnimation;
+			productName = WeiboLoginAnimation;
+			productReference = CF55F5B31CCF212000AC1EEA /* WeiboLoginAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF55F5CB1CCF212100AC1EEA /* WeiboLoginAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF55F5E31CCF212100AC1EEA /* Build configuration list for PBXNativeTarget "WeiboLoginAnimationTests" */;
+			buildPhases = (
+				CF55F5C81CCF212100AC1EEA /* Sources */,
+				CF55F5C91CCF212100AC1EEA /* Frameworks */,
+				CF55F5CA1CCF212100AC1EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF55F5CE1CCF212100AC1EEA /* PBXTargetDependency */,
+			);
+			name = WeiboLoginAnimationTests;
+			productName = WeiboLoginAnimationTests;
+			productReference = CF55F5CC1CCF212100AC1EEA /* WeiboLoginAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF55F5D61CCF212100AC1EEA /* WeiboLoginAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF55F5E61CCF212100AC1EEA /* Build configuration list for PBXNativeTarget "WeiboLoginAnimationUITests" */;
+			buildPhases = (
+				CF55F5D31CCF212100AC1EEA /* Sources */,
+				CF55F5D41CCF212100AC1EEA /* Frameworks */,
+				CF55F5D51CCF212100AC1EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF55F5D91CCF212100AC1EEA /* PBXTargetDependency */,
+			);
+			name = WeiboLoginAnimationUITests;
+			productName = WeiboLoginAnimationUITests;
+			productReference = CF55F5D71CCF212100AC1EEA /* WeiboLoginAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF55F5AB1CCF212000AC1EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF55F5B21CCF212000AC1EEA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF55F5CB1CCF212100AC1EEA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF55F5B21CCF212000AC1EEA;
+					};
+					CF55F5D61CCF212100AC1EEA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF55F5B21CCF212000AC1EEA;
+					};
+				};
+			};
+			buildConfigurationList = CF55F5AE1CCF212000AC1EEA /* Build configuration list for PBXProject "WeiboLoginAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF55F5AA1CCF212000AC1EEA;
+			productRefGroup = CF55F5B41CCF212000AC1EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF55F5B21CCF212000AC1EEA /* WeiboLoginAnimation */,
+				CF55F5CB1CCF212100AC1EEA /* WeiboLoginAnimationTests */,
+				CF55F5D61CCF212100AC1EEA /* WeiboLoginAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF55F5B11CCF212000AC1EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF55F5C61CCF212100AC1EEA /* LaunchScreen.storyboard in Resources */,
+				CF55F5C31CCF212100AC1EEA /* Assets.xcassets in Resources */,
+				CF55F5C11CCF212100AC1EEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF55F5CA1CCF212100AC1EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF55F5D51CCF212100AC1EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF55F5AF1CCF212000AC1EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF55F5BE1CCF212100AC1EEA /* ViewController.m in Sources */,
+				CF55F5BB1CCF212100AC1EEA /* AppDelegate.m in Sources */,
+				CF55F5B81CCF212100AC1EEA /* main.m in Sources */,
+				CF55F5EB1CCF21B300AC1EEA /* WeibpButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF55F5C81CCF212100AC1EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF55F5D11CCF212100AC1EEA /* WeiboLoginAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF55F5D31CCF212100AC1EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF55F5DC1CCF212100AC1EEA /* WeiboLoginAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF55F5CE1CCF212100AC1EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF55F5B21CCF212000AC1EEA /* WeiboLoginAnimation */;
+			targetProxy = CF55F5CD1CCF212100AC1EEA /* PBXContainerItemProxy */;
+		};
+		CF55F5D91CCF212100AC1EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF55F5B21CCF212000AC1EEA /* WeiboLoginAnimation */;
+			targetProxy = CF55F5D81CCF212100AC1EEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF55F5BF1CCF212100AC1EEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF55F5C01CCF212100AC1EEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF55F5C41CCF212100AC1EEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF55F5C51CCF212100AC1EEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF55F5DE1CCF212100AC1EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF55F5DF1CCF212100AC1EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF55F5E11CCF212100AC1EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeiboLoginAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.WeiboLoginAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF55F5E21CCF212100AC1EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeiboLoginAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.WeiboLoginAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF55F5E41CCF212100AC1EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeiboLoginAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.WeiboLoginAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiboLoginAnimation.app/WeiboLoginAnimation";
+			};
+			name = Debug;
+		};
+		CF55F5E51CCF212100AC1EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeiboLoginAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.WeiboLoginAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiboLoginAnimation.app/WeiboLoginAnimation";
+			};
+			name = Release;
+		};
+		CF55F5E71CCF212100AC1EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeiboLoginAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.WeiboLoginAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeiboLoginAnimation;
+			};
+			name = Debug;
+		};
+		CF55F5E81CCF212100AC1EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeiboLoginAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.WeiboLoginAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeiboLoginAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF55F5AE1CCF212000AC1EEA /* Build configuration list for PBXProject "WeiboLoginAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF55F5DE1CCF212100AC1EEA /* Debug */,
+				CF55F5DF1CCF212100AC1EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF55F5E01CCF212100AC1EEA /* Build configuration list for PBXNativeTarget "WeiboLoginAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF55F5E11CCF212100AC1EEA /* Debug */,
+				CF55F5E21CCF212100AC1EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF55F5E31CCF212100AC1EEA /* Build configuration list for PBXNativeTarget "WeiboLoginAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF55F5E41CCF212100AC1EEA /* Debug */,
+				CF55F5E51CCF212100AC1EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF55F5E61CCF212100AC1EEA /* Build configuration list for PBXNativeTarget "WeiboLoginAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF55F5E71CCF212100AC1EEA /* Debug */,
+				CF55F5E81CCF212100AC1EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF55F5AB1CCF212000AC1EEA /* Project object */;
+}
